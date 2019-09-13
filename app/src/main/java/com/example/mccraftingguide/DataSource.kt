@@ -132,7 +132,7 @@ class DataSource{
             list.add(
                 Item(
                     10,
-                    "Redstone",
+                    "Redstone Dust",
                     10,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1343,7 +1343,7 @@ class DataSource{
             list.add(
                 Item(
                     110,
-                    "Sweet Berry",
+                    "Sweet Berries",
                     110,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1462,9 +1462,9 @@ class DataSource{
 
             list.add(
                 Item(
-                    220,
+                    120,
                     "Totem of Undying",
-                    220,
+                    120,
                     intArrayOf( 0,0,0,
                                 0,0,0,
                                 0,0,0),
@@ -1474,9 +1474,9 @@ class DataSource{
 
             list.add(
                 Item(
-                    221,
+                    121,
                     "Turtle Shell",
-                    221,
+                    121,
                     intArrayOf( 8,8,8,
                                 8,0,8,
                                 0,0,0),
