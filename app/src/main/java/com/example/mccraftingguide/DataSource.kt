@@ -40,7 +40,7 @@ class DataSource{
                     "Wooden Plank",
                     2,
                     intArrayOf( 0,0,0,
-                                0,0,0,
+                                0,1,0,
                                 0,0,0),
                     1
                 )
@@ -123,8 +123,8 @@ class DataSource{
                     "Stick",
                     9,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                0,2,0,
+                                0,2,0),
                     1
                 )
             )
@@ -146,7 +146,7 @@ class DataSource{
                     11,
                     "Gold Ingot",
                     11,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 117,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -158,7 +158,7 @@ class DataSource{
                     12,
                     "Iron Ingot",
                     12,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 116,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -183,9 +183,9 @@ class DataSource{
                     14,
                     "Compass",
                     14,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,12,0,
+                                12,10,12,
+                                0,12,0),
                     1
                 )
             )
@@ -195,9 +195,9 @@ class DataSource{
                     15,
                     "Clock",
                     15,
-                    intArrayOf( 0,0,0,
-                                    0,0,0,
-                                    0,0,0),
+                    intArrayOf( 0,11,0,
+                                11,10,11,
+                                0,11,0),
                     1
                 )
             )
@@ -207,9 +207,9 @@ class DataSource{
                     16,
                     "Fishing Rod",
                     16,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,0,9,
+                                0,9,6,
+                                9,0,6),
                     1
                 )
             )
@@ -220,7 +220,7 @@ class DataSource{
                     "Flint and Steel",
                     17,
                     intArrayOf( 0,0,0,
-                                0,0,0,
+                                12,5,0,
                                 0,0,0),
                     1
                 )
@@ -232,8 +232,8 @@ class DataSource{
                     "Shears",
                     18,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                0,12,0,
+                                12,0,0),
                     1
                 )
             )
@@ -243,9 +243,9 @@ class DataSource{
                     19,
                     "Lead",
                     19,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 6,6,0,
+                                6,7,0,
+                                0,0,6),
                     1
                 )
             )
@@ -256,8 +256,8 @@ class DataSource{
                     "Bucket",
                     20,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                12,0,12,
+                                0,12,0),
                     1
                 )
             )
@@ -268,8 +268,8 @@ class DataSource{
                     "Bowl",
                     21,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                2,0,2,
+                                0,2,0),
                     1
                 )
             )
@@ -280,9 +280,9 @@ class DataSource{
                     22,
                     "Wooden Pickaxe",
                     22,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 2,2,2,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -292,9 +292,9 @@ class DataSource{
                     23,
                     "Stone Pickaxe",
                     23,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 3,3,3,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -304,9 +304,9 @@ class DataSource{
                     24,
                     "Iron Pickaxe",
                     24,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 12,12,12,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -316,9 +316,9 @@ class DataSource{
                     25,
                     "Golden Pickaxe",
                     25,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,11,11,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -328,9 +328,9 @@ class DataSource{
                     26,
                     "Diamond Pickaxe",
                     26,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 13,13,13,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -341,9 +341,9 @@ class DataSource{
                     27,
                     "Wooden Axe",
                     27,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 2,2,0,
+                                2,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -353,9 +353,9 @@ class DataSource{
                     28,
                     "Stone Axe",
                     28,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 3,3,0,
+                                3,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -365,9 +365,9 @@ class DataSource{
                     29,
                     "Iron Axe",
                     29,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 12,12,0,
+                                12,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -377,9 +377,9 @@ class DataSource{
                     30,
                     "Golden Axe",
                     30,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,11,0,
+                                11,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -389,9 +389,9 @@ class DataSource{
                     31,
                     "Diamond Axe",
                     31,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 13,13,0,
+                                13,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -402,9 +402,9 @@ class DataSource{
                     32,
                     "Wooden Shovel",
                     32,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,2,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -414,9 +414,9 @@ class DataSource{
                     33,
                     "Stone Shovel",
                     33,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,3,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -426,9 +426,9 @@ class DataSource{
                     34,
                     "Iron Shovel",
                     34,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,12,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -438,9 +438,9 @@ class DataSource{
                     35,
                     "Golden Shovel",
                     35,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,11,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -450,9 +450,9 @@ class DataSource{
                     36,
                     "Diamond Shovel",
                     36,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,13,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -463,9 +463,9 @@ class DataSource{
                     37,
                     "Wooden Hoe",
                     37,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 2,2,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -475,9 +475,9 @@ class DataSource{
                     38,
                     "Stone Hoe",
                     38,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 3,3,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -487,9 +487,9 @@ class DataSource{
                     39,
                     "Iron Hoe",
                     39,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 12,12,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -499,9 +499,9 @@ class DataSource{
                     40,
                     "Golden Hoe",
                     40,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,11,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -511,9 +511,9 @@ class DataSource{
                     41,
                     "Diamond Hoe",
                     41,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 13,13,0,
+                                0,9,0,
+                                0,9,0),
                     1
                 )
             )
@@ -524,9 +524,9 @@ class DataSource{
                     42,
                     "Wooden Sword",
                     42,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,2,0,
+                                0,2,0,
+                                0,9,0),
                     1
                 )
             )
@@ -536,9 +536,9 @@ class DataSource{
                     43,
                     "Stone Sword",
                     43,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,3,0,
+                                0,3,0,
+                                0,9,0),
                     1
                 )
             )
@@ -548,9 +548,9 @@ class DataSource{
                     44,
                     "Iron Sword",
                     44,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,12,0,
+                                0,12,0,
+                                0,9,0),
                     1
                 )
             )
@@ -560,9 +560,9 @@ class DataSource{
                     45,
                     "Golden Sword",
                     45,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,11,0,
+                                0,11,0,
+                                0,9,0),
                     1
                 )
             )
@@ -572,9 +572,9 @@ class DataSource{
                     46,
                     "Diamond Sword",
                     46,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,13,0,
+                                0,13,0,
+                                0,9,0),
                     1
                 )
             )
@@ -587,7 +587,7 @@ class DataSource{
                     intArrayOf( 0,0,0,
                                 0,0,0,
                                 0,0,0),
-                    1
+                    0
                 )
             )
 
@@ -596,9 +596,9 @@ class DataSource{
                     48,
                     "Bow",
                     48,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 6,9,0,
+                                6,0,9,
+                                6,9,0),
                     1
                 )
             )
@@ -608,9 +608,9 @@ class DataSource{
                     49,
                     "Crossbow",
                     49,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 9,12,9,
+                                6,118,6,
+                                0,9,0),
                     1
                 )
             )
@@ -620,9 +620,9 @@ class DataSource{
                     50,
                     "Arrow",
                     50,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,5,0,
+                                0,9,0,
+                                0,119,0),
                     1
                 )
             )
@@ -632,9 +632,9 @@ class DataSource{
                     51,
                     "Shield",
                     51,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 2,12,2,
+                                2,2,2,
+                                0,2,0),
                     1
                 )
             )
@@ -646,8 +646,8 @@ class DataSource{
                     52,
                     "Leather Cap",
                     52,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
+                    intArrayOf( 4,4,4,
+                                4,0,4,
                                 0,0,0),
                     1
                 )
@@ -658,8 +658,8 @@ class DataSource{
                     53,
                     "Iron Helmet",
                     53,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
+                    intArrayOf( 12,12,12,
+                                12,0,12,
                                 0,0,0),
                     1
                 )
@@ -670,8 +670,8 @@ class DataSource{
                     54,
                     "Golden Helmet",
                     54,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
+                    intArrayOf( 11,11,11,
+                                11,0,11,
                                 0,0,0),
                     1
                 )
@@ -682,8 +682,8 @@ class DataSource{
                     55,
                     "Diamond Helmet",
                     55,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
+                    intArrayOf( 13,13,13,
+                                13,0,13,
                                 0,0,0),
                     1
                 )
@@ -695,9 +695,9 @@ class DataSource{
                     56,
                     "Leather Tunic",
                     56,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 4,0,4,
+                                4,4,4,
+                                4,4,4),
                     1
                 )
             )
@@ -707,9 +707,9 @@ class DataSource{
                     57,
                     "Iron Chestplate",
                     57,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 12,0,12,
+                                12,12,12,
+                                12,12,12),
                     1
                 )
             )
@@ -719,9 +719,9 @@ class DataSource{
                     58,
                     "Golden Chestplate",
                     58,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,0,11,
+                                11,11,11,
+                                11,11,11),
                     1
                 )
             )
@@ -731,9 +731,9 @@ class DataSource{
                     59,
                     "Diamond Chestplate",
                     59,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 13,0,13,
+                                13,13,13,
+                                13,13,13),
                     1
                 )
             )
@@ -744,9 +744,9 @@ class DataSource{
                     60,
                     "Leather Pants",
                     60,
-                    intArrayOf( 0,0,0,
-                                    0,0,0,
-                                    0,0,0),
+                    intArrayOf( 4,4,4,
+                                4,0,4,
+                                4,0,4),
                     1
                 )
             )
@@ -756,9 +756,9 @@ class DataSource{
                     61,
                     "Iron Leggings",
                     61,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 12,12,12,
+                                12,0,12,
+                                12,0,12),
                     1
                 )
             )
@@ -768,9 +768,9 @@ class DataSource{
                     62,
                     "Golden Leggings",
                     62,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,11,11,
+                                11,0,11,
+                                11,0,11),
                     1
                 )
             )
@@ -780,9 +780,9 @@ class DataSource{
                     63,
                     "Diamond Leggings",
                     63,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 13,13,13,
+                                13,0,13,
+                                13,0,13),
                     1
                 )
             )
@@ -794,8 +794,8 @@ class DataSource{
                     "Leather Boots",
                     64,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                4,0,4,
+                                4,0,4),
                     1
                 )
             )
@@ -806,8 +806,8 @@ class DataSource{
                     "Iron Boots",
                     65,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                12,0,12,
+                                12,0,12),
                     1
                 )
             )
@@ -818,8 +818,8 @@ class DataSource{
                     "Golden Boots",
                     66,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                11,0,11,
+                                11,0,11),
                     1
                 )
             )
@@ -830,8 +830,8 @@ class DataSource{
                     "Diamond Boots",
                     67,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                13,0,13,
+                                13,0,13),
                     1
                 )
             )
@@ -876,7 +876,7 @@ class DataSource{
             list.add(
                 Item(
                     71,
-                    "Bucket of Milk",
+                    "Milk Bucket",
                     71,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1107,7 +1107,7 @@ class DataSource{
                     "Bread",
                     90,
                     intArrayOf( 0,0,0,
-                                0,0,0,
+                                68,68,68,
                                 0,0,0),
                     1
                 )
@@ -1118,9 +1118,9 @@ class DataSource{
                     91,
                     "Cake",
                     91,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 71,71,71,
+                                98,69,98,
+                                68,68,68),
                     1
                 )
             )
@@ -1131,7 +1131,7 @@ class DataSource{
                     "Cookie",
                     92,
                     intArrayOf( 0,0,0,
-                                0,0,0,
+                                68,89,68,
                                 0,0,0),
                     1
                 )
@@ -1142,9 +1142,9 @@ class DataSource{
                     93,
                     "Golden Apple",
                     93,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 11,11,11,
+                                11,72,11,
+                                11,11,11),
                     1
                 )
             )
@@ -1154,7 +1154,7 @@ class DataSource{
                     94,
                     "Baked Potato",
                     94,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 74,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1167,8 +1167,8 @@ class DataSource{
                     "Pumpkin Pie",
                     95,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                76,98,0,
+                                0,69,0),
                     1
                 )
             )
@@ -1179,8 +1179,8 @@ class DataSource{
                     "Mushroom Stew",
                     96,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                78,77,0,
+                                0,21,0),
                     1
                 )
             )
@@ -1190,9 +1190,9 @@ class DataSource{
                     97,
                     "Rabbit Stew",
                     97,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 0,106,0,
+                                73,94,78,
+                                0,21,0),
                     1
                 )
             )
@@ -1203,7 +1203,7 @@ class DataSource{
                     "Sugar",
                     98,
                     intArrayOf( 0,0,0,
-                                0,0,0,
+                                0,70,0,
                                 0,0,0),
                     1
                 )
@@ -1214,9 +1214,9 @@ class DataSource{
                     99,
                     "Beetroot Soup",
                     99,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                    intArrayOf( 75,75,75,
+                                75,75,75,
+                                0,21,0),
                     1
                 )
             )
@@ -1227,8 +1227,8 @@ class DataSource{
                     "Suspicious Stew",
                     100,
                     intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
+                                78,77,0,
+                                79,21,0),
                     1
                 )
             )
@@ -1238,7 +1238,7 @@ class DataSource{
                     101,
                     "Popped Chorus Fruit",
                     101,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 80,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1250,7 +1250,7 @@ class DataSource{
                     102,
                     "Steak",
                     102,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 81,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1262,7 +1262,7 @@ class DataSource{
                     103,
                     "Cooked Porkchop",
                     103,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 82,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1274,7 +1274,7 @@ class DataSource{
                     104,
                     "Cooked Mutton",
                     104,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 83,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1286,7 +1286,7 @@ class DataSource{
                     105,
                     "Cooked Chicken",
                     105,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 84,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1298,7 +1298,7 @@ class DataSource{
                     106,
                     "Cooked Rabbit",
                     106,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 85,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1310,7 +1310,7 @@ class DataSource{
                     107,
                     "Cooked Cod",
                     107,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 86,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1322,31 +1322,18 @@ class DataSource{
                     108,
                     "Cooked Salmon",
                     108,
-                    intArrayOf( 0,0,0,
+                    intArrayOf( 87,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
                 )
             )
-
             list.add(
                 Item(
                     109,
-                    "Cooked Rabbit",
-                    109,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
-                    2
-                )
-            )
-
-            list.add(
-                Item(
-                    110,
                     "Dried Kelp",
-                    110,
-                    intArrayOf( 0,0,0,
+                    109,
+                    intArrayOf( 88,0,0,
                                 0,0,0,
                                 0,0,0),
                     2
@@ -1355,8 +1342,20 @@ class DataSource{
 
             list.add(
                 Item(
-                    111,
+                    110,
                     "Sweet Berry",
+                    110,
+                    intArrayOf( 0,0,0,
+                                0,0,0,
+                                0,0,0),
+                    0
+                )
+            )
+
+            list.add(
+                Item(
+                    111,
+                    "Poisonous Potato",
                     111,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1368,7 +1367,7 @@ class DataSource{
             list.add(
                 Item(
                     112,
-                    "Poisonous Potato",
+                    "Melon Slice",
                     112,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1380,7 +1379,7 @@ class DataSource{
             list.add(
                 Item(
                     113,
-                    "Melon Slice",
+                    "Rotten Flesh",
                     113,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1392,7 +1391,7 @@ class DataSource{
             list.add(
                 Item(
                     114,
-                    "Rotten Flesh",
+                    "Tropical Fish",
                     114,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1404,7 +1403,7 @@ class DataSource{
             list.add(
                 Item(
                     115,
-                    "Tropical Fish",
+                    "Pufferfish",
                     115,
                     intArrayOf( 0,0,0,
                                 0,0,0,
@@ -1416,8 +1415,44 @@ class DataSource{
             list.add(
                 Item(
                     116,
-                    "Pufferfish",
+                    "Iron Ore",
                     116,
+                    intArrayOf( 0,0,0,
+                                0,0,0,
+                                0,0,0),
+                    0
+                )
+            )
+
+            list.add(
+                Item(
+                    117,
+                    "Gold Ore",
+                    117,
+                    intArrayOf( 0,0,0,
+                                0,0,0,
+                                0,0,0),
+                    0
+                )
+            )
+
+            list.add(
+                Item(
+                    118,
+                    "Tripwire Hook",
+                    118,
+                    intArrayOf( 0,12,0,
+                                0,9,0,
+                                0,2,0),
+                    1
+                )
+            )
+
+            list.add(
+                Item(
+                    119,
+                    "Feather",
+                    119,
                     intArrayOf( 0,0,0,
                                 0,0,0,
                                 0,0,0),
