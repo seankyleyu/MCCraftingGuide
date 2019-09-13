@@ -1460,6 +1460,18 @@ class DataSource{
                 )
             )
 
+            list.add(
+                Item(
+                    220,
+                    "Totem of Undying",
+                    220,
+                    intArrayOf( 0,0,0,
+                                0,0,0,
+                                0,0,0),
+                    0
+                )
+            )
+
             return list
         }
     }
