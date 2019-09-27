@@ -10,17 +10,17 @@ class DataSource{
             val list = ArrayList<Item>()
 
             //Base Items
-            list.add(
-                Item(
-                    0,
-                    "NULL",
-                    0,
-                    intArrayOf( 0,0,0,
-                                0,0,0,
-                                0,0,0),
-                    0
-                )
-            )
+//            list.add(
+//                Item(
+//                    0,
+//                    "NULL",
+//                    0,
+//                    intArrayOf( 0,0,0,
+//                                0,0,0,
+//                                0,0,0),
+//                    0
+//                )
+//            )
 
             list.add(
                 Item(
