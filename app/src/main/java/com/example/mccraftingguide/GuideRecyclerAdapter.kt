@@ -61,7 +61,7 @@ class CustomViewHolder(
                 intent.putExtra("ITEM_RECIPE", ItemRecipe)
 
                 view.context.startActivity(intent)
-                
+
             }
         }
     }
