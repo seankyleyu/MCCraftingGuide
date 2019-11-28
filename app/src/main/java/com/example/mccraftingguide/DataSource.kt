@@ -1480,7 +1480,7 @@ class DataSource{
                     intArrayOf( 8,8,8,
                                 8,0,8,
                                 0,0,0),
-                    0
+                    1
                 )
             )
 
