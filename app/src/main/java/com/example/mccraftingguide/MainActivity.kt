@@ -2,34 +2,26 @@ package com.example.mccraftingguide
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.mccraftingguide.fragments.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var guideAdapter: GuideRecyclerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initRecyclerView()
-        addDataSet()
-    }
+        val pagerAdapter = ItemsPagerAdapter(supportFragmentManager)
+        pagerAdapter.addFragment(MaterialFragment(),"Materials")
+        pagerAdapter.addFragment(ToolFragment(),"Tools")
+        pagerAdapter.addFragment(WeaponFragment(),"Weapons")
+        pagerAdapter.addFragment(ArmorFragment(),"Armor")
+        pagerAdapter.addFragment(FoodFragment(),"Food")
 
-    private fun addDataSet(){
-        val data = DataSource.createDataSet()
-        guideAdapter.submitList(data)
-    }
+        viewPager.adapter = pagerAdapter
 
-    private fun initRecyclerView(){
-        recycler_view.apply{
-            layoutManager = LinearLayoutManager(this@MainActivity)
-            val topSpacingDecorator = TopSpacingItemDecoration(10)
-            addItemDecoration(topSpacingDecorator)
-            guideAdapter = GuideRecyclerAdapter()
-            adapter = guideAdapter
-        }
+        tab_layout.setupWithViewPager(viewPager)
+
     }
 
 }
