@@ -33,12 +33,20 @@
 
             <TextView
                 android:id="@+id/item_name"
-                android:layout_width="353dp"
+                android:layout_width="335dp"
                 android:layout_height="30dp"
                 android:paddingLeft="10dp"
                 android:text="Item Name"
                 android:textColor="#000"
                 android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/chevron_right"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_chevron_right" />
 
         </LinearLayout>
 

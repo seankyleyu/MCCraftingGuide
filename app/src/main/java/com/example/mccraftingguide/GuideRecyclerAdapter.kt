@@ -79,6 +79,10 @@ class CustomViewHolder(
         item_icon.setImageResource(drawableId)
         item_name.setText(item.name)
 
+        if(item.type != 0){
+            itemView.chevron_right.visibility = View.VISIBLE
+        }
+
     }
 
 }
