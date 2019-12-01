@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         pagerAdapter.addFragment(ArmorFragment(),"Armor")
         pagerAdapter.addFragment(FoodFragment(),"Food")
 
+
         viewPager.adapter = pagerAdapter
 
         tab_layout.setupWithViewPager(viewPager)
