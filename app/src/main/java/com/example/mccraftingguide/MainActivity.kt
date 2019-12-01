@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
 
         tab_layout.setupWithViewPager(viewPager)
 
+        tab_layout.getTabAt(0)?.setIcon(R.drawable.i3)
+        tab_layout.getTabAt(1)?.setIcon(R.drawable.i26)
+        tab_layout.getTabAt(2)?.setIcon(R.drawable.i46)
+        tab_layout.getTabAt(3)?.setIcon(R.drawable.i59)
+        tab_layout.getTabAt(4)?.setIcon(R.drawable.i72)
+
     }
 
 }
