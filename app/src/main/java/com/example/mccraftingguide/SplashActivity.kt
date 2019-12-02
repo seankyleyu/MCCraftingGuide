@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 
+
 class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
     private val SPLASH_DELAY: Long = 3000
@@ -20,6 +21,9 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        this.supportActionBar!!.hide()
+
         setContentView(R.layout.activity_splash)
 
         mDelayHandler = Handler()
