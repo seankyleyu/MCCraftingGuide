@@ -2,6 +2,8 @@ package com.example.mccraftingguide
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.ProgressBar
 import android.widget.Toast
 import com.example.mccraftingguide.api.ApiService
 import com.example.mccraftingguide.fragments.*
@@ -29,7 +31,12 @@ class MainActivity : AppCompatActivity() {
         val api = retrofit.create(ApiService::class.java)
 
         api.fetchAllItems().enqueue(object : Callback<ArrayList<Item>> {
+
+            var spinner: ProgressBar = findViewById(R.id.progressBar)
+
             override fun onResponse(call: Call<ArrayList<Item>>, response: Response<ArrayList<Item>>) {
+
+                spinner.visibility = View.GONE
 
                 fragmentList = response.body()!!
 
@@ -38,6 +45,9 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<ArrayList<Item>>, t: Throwable) {
+
+                spinner.visibility = View.GONE
+
                 Toast.makeText(this@MainActivity, "Error", Toast.LENGTH_LONG).show()
             }
 
