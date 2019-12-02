@@ -12,11 +12,11 @@ import com.example.mccraftingguide.R
 import com.example.mccraftingguide.TopSpacingItemDecoration
 import com.example.mccraftingguide.models.Item
 
-class ArmorFragment(private val data: ArrayList<Item>) : Fragment() {
+class BlockFragment (private val data: ArrayList<Item>)  : Fragment(){
 
     private lateinit var guideAdapter: GuideRecyclerAdapter
     private lateinit var recyclerView: RecyclerView
-    private val categoryType: String = "Armor"
+    private val categoryType: String = "Block"
     private var sortedList: ArrayList<Item> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,9 +31,9 @@ class ArmorFragment(private val data: ArrayList<Item>) : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val rootView = inflater.inflate(R.layout.fragment_armor,container,false)
+        val rootView = inflater.inflate(R.layout.fragment_block,container,false)
 
-        recyclerView = rootView.findViewById(R.id.armor_recycler_view) as RecyclerView
+        recyclerView = rootView.findViewById(R.id.block_recycler_view) as RecyclerView
 
         recyclerView.apply {
             layoutManager = LinearLayoutManager(activity?.applicationContext)

@@ -19,16 +19,14 @@ class GuideRecyclerAdapter : RecyclerView.Adapter<CustomViewHolder>(){
     }
 
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
-        when(holder){
-            is CustomViewHolder -> {
-                holder.bind(items.get(position))
 
-                holder?.ItemName = items.get(position).name
-                holder?.ItemIcon = items.get(position).icon
-                holder?.ItemType = items.get(position).type
-                holder?.ItemRecipe = items.get(position).recipe
-            }
-        }
+        holder.bind(items.get(position))
+
+        holder.ItemName = items.get(position).name
+        holder.ItemIcon = items.get(position).namespaced_id
+        holder.ItemType = items.get(position).crafting_station?.pk
+        holder.ItemRecipe = items.get(position).recipe?.grid
+
     }
 
     override fun getItemCount(): Int {
@@ -44,14 +42,19 @@ class GuideRecyclerAdapter : RecyclerView.Adapter<CustomViewHolder>(){
 class CustomViewHolder(
     val view:View,
     var ItemName: String? = null,
-    var ItemIcon: Int? = null,
+    var ItemIcon: String? = null,
     var ItemType: Int? = null,
-    var ItemRecipe: IntArray? = null
+    var ItemRecipe: Array<String>? = null
 ) : RecyclerView.ViewHolder(view) {
+
+    var ItemTypeSmartCast: Int? = null
 
     init{
         view.setOnClickListener{
-            if(ItemType != 0) {
+
+            ItemTypeSmartCast = ItemType
+
+            if(ItemTypeSmartCast != null) {
 
                 val intent = Intent(view.context, RecipeActivity::class.java)
 
@@ -72,14 +75,14 @@ class CustomViewHolder(
     fun bind(item: Item){
 
         var drawableId: Int = itemView.context.resources.getIdentifier(
-            "i" + item.icon,
+            item.namespaced_id,
             "drawable",
             itemView.context.packageName
         )
         item_icon.setImageResource(drawableId)
         item_name.setText(item.name)
 
-        if(item.type != 0){
+        if(item.crafting_station != null){
             itemView.chevron_right.visibility = View.VISIBLE
         }
 

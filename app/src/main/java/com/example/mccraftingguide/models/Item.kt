@@ -1,16 +1,37 @@
 package com.example.mccraftingguide.models
 
-enum class Category {
-    Material, Armor, Tool, Weapon, Food
-}
+class Category(
+    var pk: Int,
+    var name: String
+)
+
+class CraftingStation(
+    var pk: Int,
+    var name: String
+)
+
+class Rarity(
+    var pk: Int,
+    var name: String
+)
+
+class Recipe(
+    var pk: Int,
+    var formless: Boolean,
+    var grid: Array<String>?
+)
 
 class Item(
 
-    var id: Int,
+    var pk: Int,
+    var category: Category,
+    var crafting_station: CraftingStation?,
+    var durability: Int?,
+    var max_stack: Int,
     var name: String,
-    var icon: Int,
-    var recipe: IntArray,
-    var type: Int,                       //0 - No Recipe , 1 - Craft , 2 - Smelt
-    var category: Category
+    var namespaced_id: String,
+    var rarity: Rarity,
+    var recipe: Recipe?,
+    var stackable: Boolean
 
 )

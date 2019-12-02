@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("")
+    @GET("items")
     fun fetchAllItems(): Call<ArrayList<Item>>
 }

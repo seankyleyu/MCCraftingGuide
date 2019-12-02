@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.066"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <TextView
         android:id="@+id/recipe_name"
@@ -44,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe2"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe8"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe5"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe7"
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe4"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe9"
@@ -100,7 +100,7 @@
         app:layout_constraintStart_toEndOf="@+id/recipe8"
         app:layout_constraintTop_toBottomOf="@+id/recipe6"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe3"
@@ -114,7 +114,7 @@
         app:layout_constraintStart_toEndOf="@+id/recipe2"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe6"
@@ -128,7 +128,7 @@
         app:layout_constraintStart_toEndOf="@+id/recipe5"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="0.353"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe5"
@@ -142,7 +142,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="0.353"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/recipe4"
@@ -156,7 +156,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recipe_name"
         app:layout_constraintVertical_bias="0.353"
-        app:srcCompat="@drawable/i1" />
+        app:srcCompat="@drawable/air" />
 
     <ImageView
         android:id="@+id/smelt"
